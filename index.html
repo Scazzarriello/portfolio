@@ -8,7 +8,9 @@
     <!-- bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <!-- animate.css -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" /> -->
+    <!-- aos-animate -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- font-avesone -->
     <script src="https://kit.fontawesome.com/116e829d7f.js" crossorigin="anonymous"></script>
     <!-- Css style -->
@@ -18,8 +20,8 @@
 <body>
 
 <!-- Nav-bar -->
-  <nav class="navbar navbar-expand-md navbar-dark  fixed-top " aria-label="Tenth navbar example">
-    <div class="container-fluid">
+  <nav class="navbar navbar-expand-md navbar-dark  fixed-top " aria-label="Tenth navbar example" >
+    <div class="container-fluid" data-aos="fade-up">
       <a class="navbar-brand d-md-none" href="#"><img src="./Img/logo.png" alt=""></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample08" aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -39,111 +41,101 @@
       </div>
     </div>
   </nav>
- <!-- Nav-bar-end -->
+<!-- Nav-bar-end -->
   
-  <!-- Section-home -->
+<!-- Section-home -->
 <section class="">
   <div class="container-fluid Bag position-relative"  >
       <div class="row text-center" >
         <div class="col-12 position-absolute top-50 start-50 translate-middle text-white animate__animated   ">
-          <h2 class="animate__animated animate__backInDown">Welcome</h2>
-          <h1 class="animate__animated animate__backInUp">I'm Scazzarriello Rocco Salvatore</h1>
+          <h2 class="animate__animated animate__backInDown" data-aos="fade-up">Welcome</h2>
+          <h1 class="animate__animated animate__backInUp" data-aos="fade-down" data-aos-duration="3000">I'm Scazzarriello Rocco Salvatore</h1>
         </div>        
 </section>
-<a href=""name="profile"></a>
+
 <!-- Section Profile -->
+
+<a href=""name="profile"></a>
+
 <div class="container mt-5 text-light">
   <div class="row">
-    <div class="col-6 mx-auto " >
-      
+    <div class="col-6 col-sm-4 mx-auto " >
       <h2 class="text-center img-thumbnail bg-primary my-5 border-0" >Profile</h2>
     </div>
     
     <div class="col-12  d-md-flex">
       
-      <div class="col-12 col-md-6 text-center my-auto "> <img class="rounded-5 img-fluid " src="./Img/img.jpeg" alt="">
+      <div class="col-12 col-md-6 text-center my-5 my-md-auto "> <img class="rounded-5 img-fluid " src="./Img/img.jpeg" alt="">
       </div>
-      <div class="col-12 col-md-6 text-center text-md-start animate__animated animate__fadeInRight">
+      <div class="col-12 col-md-6 text-center text-md-start "
+      data-aos="fade-up">
           <h2 class="">Scazzarriello Rocco Salvatore</h2>
           <h5 class="fg-theme mb-3">Full stack Developer</h5>
-          <p class="">Full stack developer junior, con specializzazione acquisita mediante coding bootcamp. Apprese le basi della programmazione object oriented e l'organizzazione del lavoro attraverso le metodologie agili SCRUM. Acquisite le tecniche per sviluppare e creare siti web, tramite esercizi pratici e la collaborazione con i professori ed i compagni di corso. Buona propensione lato back end ed ottima conoscenza di Laravel. Completano il profilo un'ottima conoscenza dell'Hardware, precisione, doti di lavoro in team, di organizzazione e di problem solving.                                                                                                     </p>
-          <ul class="theme-list">
-            <li><b>From:</b> Italy</li>
-            <li><b>Lives In:</b> Cecina, LI</li>
-            <li><b>Age:</b> 30</li>
-            <li><b>Gender:</b> Male</li>
-          </ul>
-          <button class="btn btn-secondary"><a class="text-black" href="C.V. Scazzarriello Rocco Salvatore.pdf" download>Download CV</a> </button>
+          <p class="">Full stack developer junior, con specializzazione acquisita mediante coding bootcamp. Apprese le basi della programmazione object oriented e l'organizzazione del lavoro attraverso le metodologie agili SCRUM. Acquisite le tecniche per sviluppare e creare siti web, tramite esercizi pratici e la collaborazione con i professori ed i compagni di corso. Buona propensione lato back end ed ottima conoscenza di Laravel. Completano il profilo un'ottima conoscenza dell'Hardware, precisione, doti di lavoro in team, di organizzazione e di problem solving.</p>
+          <h6>- From: Italy</h6>
+          <h6>- Lives In: Cecina, LI </h6>
+          <h6>- Age: 30</h6>
+          <h6>- Gender: Male</h6>
+          <button class="btn btn-secondary"><a class="text-black" href="/C.V Scazzarriello Rocco Salvatore.pdf" download>Download CV</a> </button>
         
       </div>
     </div>
+
     <div class="container pt-5">
       <div class="row">
-        <div class="col-md-6 wow fadeInRight">
-          <h2 class="fw-normal">Education</h2>
-          <ul class="timeline mt-4 pr-md-5">
-            <li>
-              <div class="title">2022</div>
-              <div class="details">
-                <h3>Corso Full Stack Developer junior </h3>
-                <h5 class="fg-theme">Aulab</h5>
-              </div>
-            </li>
-            <li>
-              <div class="title">2021</div>
-              <div class="details">
-                <h3>Addetto Buste Paghe</h3>
-                <h5 class="fg-theme">Centro studi l'Arca</h5>
-              </div>
-            </li>
-            <li>
-              <div class="title">2011</div>
-              <div class="details">
-                <h3>Perito Elettronico - Elettrico</h3>
-                <h5 class="fg-theme">I.P.I.A</h5>
-              </div>
-            </li>
-          </ul>
+        <div class="col-12 d-md-flex">
+          <div class="col-md-6 wow fadeInRight text-center">
+          <h2 class="fw-normal text-decoration-underline">Education</h2>
+          
+              <h5 class="title linee">2022</h5>
+              <h3>Full Stack Developer junior </h3>
+              <h5 class="fg-theme">Aulab</h5>
+              
+              <h5>2021</h5>
+              <h3>Addetto Buste Paghe</h3>
+              <h5 class="fg-theme">Centro studi l'Arca</h5>
+              
+              <h5 class="title">2011</h5>
+              <h3>Perito Elettronico - Elettrico</h3>
+              <h5 class="fg-theme">I.P.I.A</h5>
+            </div>
+
+        <div class="col-md-6 wow fadeInRight text-center mt-5 mt-md-0" data-wow-delay="200ms">
+          <h2 class="fw-normal text-decoration-underline">Experience</h2>
+
+              <h5>2023 - Current</h5>
+              <h3>Freelence Full Stack Web</h3>
+              <h5>Autonomo</h5>
+          
+              <h5>2016 - 2022</h5>      
+              <h3>Commis</h3>
+              <h5 >Hotel Stella</h5>            
+          
+              <h5>2011 - 2016</h5>             
+              <h3>Manutentore</h3>
+              <h5 class="fg-theme">Azienda Pasquale Lavecchia</h5>     
+      
         </div>
-        <div class="col-md-6 wow fadeInRight" data-wow-delay="200ms">
-          <h2 class="fw-normal">Experience</h2>
-          <ul class="timeline mt-4 pr-md-5">
-            <li>
-              <div class="title">2023 - Current</div>
-              <div class="details">
-                <h3>Freelence Full Stack Web</h3>
-                <h5>Autonomo</h5>
-              </div>
-            </li>
-            <li>
-              <div class="title">2016 - 2022</div>
-              <div class="details">
-                <h3>Commis</h3>
-                <h5 >Hotel Stella</h5>
-              </div>
-            </li>
-            <li>
-              <div class="title">2011 - 2016</div>
-              <div class="details">
-                <h3>Manutentore</h3>
-                <h5 class="fg-theme">Azienda Pasquale Lavecchia</h5>
-              </div>
-            </li>
-          </ul>
         </div>
+        
       </div>
     </div>
   </div>
 </div>
-<a href=""name="skills" class="my-5"></a>
-<!-- Section-skills -->  
 
-    <div class=" col-6 mx-auto my-5 ">
+<!-- Section-skills -->
+
+<a href=""name="skills" class="my-5"></a>
+   
+<div class="container ">
+  <div class="row">
+     <div class=" col-6 col-sm-4 mx-auto my-3 ">
         <h2 class="text-center img-thumbnail bg-warning border-0 my-5">Skills</h2>
      </div>
-<div class="container text-white">
-  <div class="row justify-content-between">
-     <div class="col-5 ">
+     
+     <div class="col-12 d-sm-flex text-white">
+
+    <div class="col-10 col-sm-5 text-center text-sm-start mx-auto ">
 
         <div class="col-12 my-3">
           <span> <img src="./Img/html-5-48.png" alt=""> Html</span>
@@ -182,52 +174,56 @@
 
      </div>
 
-     <div class="col-5 justify-content-end text-end ">
+    <div class="col-10 col-sm-5 text-center text-sm-end mx-auto  ">
 
         <div class="col-12 my-3 ">
           <span>Bootstrap <img src="./Img/bootstrap-48.png" alt=""> </span>
-          <div class="progress mt-2 skills" role="progressbar" aria-label="Warning example"        aria-valuemin="0" aria-valuemax="100">
-            <div class="progress-bar bg-warning m-1 text-black " style="width: 90%"> 90%</div>    
+          
+          <div class="progress mt-2 skills justify-content-sm-end" role="progressbar" aria-label="Warning example" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar bg-warning m-1 text-black  " style="width: 90%"> 90%</div>    
           </div>
         </div>
 
-        <div class="col-12 my-3 justify-content-end">
+        <div class="col-12 my-3 ">
             <span> php <img src="./Img/php-48.png" alt=""></span>
-            <div class="progress mt-2 skills " role="progressbar" aria-label="Warning example"        aria-valuemin="0" aria-valuemax="100">
+            <div class="progress mt-2 skills justify-content-sm-end" role="progressbar" aria-label="Warning example" aria-valuemin="0" aria-valuemax="100">
               <div class="progress-bar bg-warning m-1 text-black" style="width: 70%"> 70%</div>
             </div>
         </div>
 
         <div class="col-12 my-3">
             <span>Laravel <img src="./Img/laravel-48.png" alt=""> </span>
-            <div class="progress mt-2 skills" role="progressbar" aria-label="Warning example"        aria-valuemin="0" aria-valuemax="100">
+            <div class="progress mt-2 skills justify-content-sm-end" role="progressbar" aria-label="Warning example" aria-valuemin="0" aria-valuemax="100">
               <div class="progress-bar bg-warning m-1 text-black" style="width: 75%"> 75%</div>
             </div>
         </div>
 
         <div class="col-12 my-3">
             <span> Mysql <img src="./Img/mysql-48.png" alt=""> </span>
-            <div class="progress mt-2 skills" role="progressbar" aria-label="Warning example"        aria-valuemin="0" aria-valuemax="100">
+            <div class="progress mt-2 skills justify-content-sm-end" role="progressbar" aria-label="Warning example" aria-valuemin="0" aria-valuemax="100">
             <div class="progress-bar bg-warning m-1 text-black" style="width: 60%"> 60%</div>
             </div>
         </div>
 
         <div class="col-12 my-3">
-          <span>Responsive <img src="./Img/responsive-web-48.png" alt=""> </span>
-          <div class="progress mt-2 skills" role="progressbar" aria-label="Warning example"        aria-valuemin="0" aria-valuemax="100">
+          <span> Web Responsive <img src="./Img/responsive-web-48.png" alt=""> </span>
+          <div class="progress mt-2 skills justify-content-sm-end" role="progressbar" aria-label="Warning example" aria-valuemin="0" aria-valuemax="100">
             <div class="progress-bar bg-warning m-1 text-black" style="width: 80%"> 80%</div>
           </div>
         </div>
-   </div>
+    </div>
+
+     </div>
   </div>
 </div>
 
 <!-- Section-Template -->
-<div class=" col-4 mx-auto img-thumbnail bg-success my-5 border-0">
-  <h2 class="text-center">Template</h2>
-</div>
+
 <div class="container">
   <div class="row my-4">
+    <div class=" col-6 col-sm-4 mx-auto ">
+  <h2 class="text-center img-thumbnail bg-success my-5 border-0">Template</h2>
+</div>
     <div class="col-12 d-flex justify-content-around">
       <div class="col-3 card"><img src="./Img/bootstrap-48.png" alt=""></div>
       <div class="col-3 card"><img src="./Img/bootstrap-48.png" alt=""></div>
@@ -268,4 +264,9 @@
 </body>
 <!-- bootstrap -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+<!-- aos-animate -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </html>
